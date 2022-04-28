@@ -12,12 +12,12 @@ box-shadow: 2px 1px 12px 0px rgba(0,0,0,0.73);
 }
 body {
     background-color: #e6eff6;
-    font-size: 12px;
+    font-size: 13px;
     
 }
 h5 {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -26,6 +26,7 @@ p {
     font-size: 10px;
 }
 
-button {
+.btn {
   font-size: 13px;
+  color: black;
 }
