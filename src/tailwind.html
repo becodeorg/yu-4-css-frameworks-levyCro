@@ -47,9 +47,23 @@
                     MORE</a>
 
             </div>
-            <div class="">
-                <img src="../images/man (3).png" alt="">
+
+            <div class="w-6/12 flex justify-center">
+                <div class="header-img flex justify-center h-[598px] w-60 bg-cover">
+                    <button class="mt-56" onclick="startClick(headervideoblock,'player','a4jSanwdEj0')"><img
+                            src="../images/playbutton.png" alt="">
+                    </button>
+
+                    <div id="headervideoblock"
+                        class="absolute mr-56 h-[390px] sm:w-[500px] md:w-[600px] lg:w-[640px] xl:w-[440px] 2xl:w-[640px] bg-slate-300/[.25] rounded hidden">
+                        <div class=""><button onclick="stopClick(headervideoblock)">
+                                <font color="red">X</font> close video
+                            </button></div>
+                        <div id="player" class=""></div>
+                    </div>
+                </div>
             </div>
+
         </div>
     </div>
     <!-- Section 2-->
@@ -165,27 +179,68 @@
     <!-- Section 5 -->
     <div class="container mx-auto text-center border">
         <h1 class="text-3xl text-gray-300 py-10">Testimonials</h1>
-        <div class="flex flex-wrap justify-evenly mx-5">
+        <div class="flex justify-center">
+
             <div class="w-80">
-                <img src="../images/testimonials.png" alt="">
+
+                <div id="testimonialsvideoblock"
+                    class="absolute mt-0 h-[180px] 2xl:w-[290px] bg-slate-300/[.25] rounded hidden">
+                    <div class="ml-4"><button onclick="stopClick(testimonialsvideoblock)">
+                            <font color="red">X</font> close video
+                        </button></div>
+                    <div id="player2" class=""></div>
+                </div>
+                <button onclick="startClick(testimonialsvideoblock,'player2','vTkUlqFqWpc')">
+                    <center><img src="../images/testimonials.png"></center>
+                </button>
+
                 <h5 class="text-gray-300 xl">"Lorem ipsum dolor sit amet"</h5>
                 <p class="text-gray-300 text-sm">John Doe. Usa 740 GMAT</p>
 
             </div>
             <div class="w-80">
-                <img src="../images/testimonials.png" alt="">
+
+                <div id="testimonialsvideoblock1"
+                    class="absolute mt-0 h-[180px] 2xl:w-[290px] bg-slate-300/[.25] rounded hidden">
+                    <div class="ml-4">
+                        
+                        <button onclick="stopClick(testimonialsvideoblock1)">
+                            <font color="red">X</font> close video
+                        </button>
+                    </div>
+                    <div id="player3" class=""></div>
+                </div>
+                <button onclick="startClick(testimonialsvideoblock1,'player3','B9FzVhw8_bY')">
+                    <center><img src="../images/testimonials.png"></center>
+                </button>
+
                 <h5 class="text-gray-300 xl">"Lorem ipsum dolor sit amet"</h5>
                 <p class="text-gray-300 text-sm">John Doe. Usa 740 GMAT</p>
+
+              
 
             </div>
             <div class="w-80">
-                <img src="../images/testimonials.png" alt="">
+                  <div id="testimonialsvideoblock2"
+                    class="absolute mt-0 h-[180px] 2xl:w-[290px] bg-slate-300/[.25] rounded hidden">
+                    <div class="ml-4">
+                        
+                        <button onclick="stopClick(testimonialsvideoblock2)">
+                            <font color="red">X</font> close video
+                        </button>
+                    </div>
+                    <div id="player4" class=""></div>
+                </div>
+                <button onclick="startClick(testimonialsvideoblock2,'player4','9d8SzG4FPyM')">
+                    <center><img src="../images/testimonials.png"></center>
+                </button>
+
                 <h5 class="text-gray-300 xl">"Lorem ipsum dolor sit amet"</h5>
                 <p class="text-gray-300 text-sm">John Doe. Usa 740 GMAT</p>
 
-            </div>
-
+             
         </div>
+    </div>
     </div>
 
     <!-- Section 6-->
@@ -233,15 +288,15 @@
             <a href="#" class="w-80  text-center  text-2xl inline-block text-sm px-4 py-2 leading-none  rounded-full text-white
                   bg-red-500 hover:border-transparent hover:text-white-500 hover:bg-gray-500">MAIN CTA
                 BUTTON</a>
-                <p class="text-gray-300 py-5">Try it free for 7 days with no commitment</p>
+            <p class="text-gray-300 py-5">Try it free for 7 days with no commitment</p>
         </div>
     </div>
 
     </div>
-<div class="grid overflow-hidden grid-cols-1 grid-rows-10 gap-0 bg-gray-400" >
-    <div class="box h-40 text-center pt-16 text-white font-bold">FOOTER MATERIAL</div>
-</div>
-<a href="./index.html" class="bg-red-500 rounded-full py-1 px-1 text-white">Index</a>
+    <div class="grid overflow-hidden grid-cols-1 grid-rows-10 gap-0 bg-gray-400">
+        <div class="box h-40 text-center pt-16 text-white font-bold">FOOTER MATERIAL</div>
+    </div>
+    <a href="./index.html" class="bg-red-500 rounded-full py-1 px-1 text-white">Index</a>
     <a href="./tailwind.html" class="bg-red-500 rounded-full py-1 px-1 text-white">Thailwind</a>
     <a href="./wireframe.html" class="bg-red-500 rounded-full py-1 px-1 text-white">Wireframe bootstrap!</a>
 
@@ -252,6 +307,8 @@
     <!--Footer Section-->
 
 
+
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.header-img {
+    background-image: url('../images/man3.png');
+}
